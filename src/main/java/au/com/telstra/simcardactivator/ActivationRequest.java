@@ -1,10 +1,10 @@
 package au.com.telstra.simcardactivator;
 
 public class ActivationRequest {
-    private String iccid; // unique global identifier
+    private String iccid;
     private String customerEmail;
 
-    // Add Getters and Setters (IDE can generate these)
+    // Add Getters and Setters
 
     public String getIccid() {
         return iccid;

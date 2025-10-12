@@ -3,9 +3,7 @@ package au.com.telstra.simcardactivator;
 public class ActuatorResponse {
     private boolean success;
 
-    // Add Getter (isSuccess()) and Setter
-
-
+    // Add Getter and Setter
     public boolean isSuccess() {
         return success;
     }
