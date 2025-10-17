@@ -16,7 +16,7 @@ public class Customer {
     private String customerEmail;
     private boolean active;
 
-    protected Customer() {}
+    public Customer() {}
 
     public Customer(String iccid, String customerEmail, boolean active) {
         this.iccid = iccid;
